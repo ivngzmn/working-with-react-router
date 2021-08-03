@@ -84,9 +84,24 @@ body {
   flex: 1;
   flex-grow: 1;
   border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;  
 }
+
+
 
 /**
  * Add your highlight code here
  */
+
+ .highlight {
+   display: block;
+   position: absolute;
+   height: 80px;
+   width: 300px;
+   top: -10px;
+   border-radius: 50%;
+   opacity: 0.8;
+   pointer-events: none;
+   background: radial-gradient(rgba(157, 128, 238, 1), rgba(157, 128,238, 0));
+   transition: 0.3s ease all;
+ }
