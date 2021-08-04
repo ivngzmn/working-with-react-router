@@ -1,41 +1,35 @@
 {
-  "optionalDependencies" : {
-
+  "scripts": {
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start": "react-scripts start"
   },
-  "scripts" : {
-    "build" : "react-scripts build",
-    "test" : "react-scripts test",
-    "eject" : "react-scripts eject",
-    "start" : "react-scripts start"
+  "version": "0.1.0",
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "version" : "0.1.0",
-  "devDependencies" : {
-
-  },
-  "eslintConfig" : {
-    "extends" : "react-app"
-  },
-  "private" : true,
-  "browserslist" : {
-    "development" : [
+  "private": true,
+  "browserslist": {
+    "development": [
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
     ],
-    "production" : [
+    "production": [
       ">0.2%",
       "not dead",
       "not op_mini all"
     ]
   },
-  "dependencies" : {
-    "react-scripts" : "^4.0.3",
-    "@testing-library\/react" : "^12.0.0",
-    "@testing-library\/user-event" : "^13.2.1",
-    "react" : "^17.0.2",
-    "@testing-library\/jest-dom" : "^5.14.1",
-    "react-router-dom" : "^5.1.2",
-    "react-dom" : "^17.0.2"
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3"
   },
-  "name" : "finished"
+  "name": "finished"
 }
